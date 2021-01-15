@@ -1,10 +1,5 @@
 package test2;
 
-import com.sun.org.apache.xpath.internal.objects.XNull;
-import com.sun.xml.internal.ws.commons.xmlutil.Converter;
-
-import java.util.List;
-
 public class main {
     public static void main(String[] args) {
         ListNode l13 = new ListNode(3,null);
@@ -46,16 +41,6 @@ class ListNode {
     }
 }
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         //存放答案链表
