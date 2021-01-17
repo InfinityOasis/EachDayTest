@@ -1,6 +1,6 @@
 package test2;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         ListNode l13 = new ListNode(3,null);
         ListNode l12 = new ListNode(4,l13);

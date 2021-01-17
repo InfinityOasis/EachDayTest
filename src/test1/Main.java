@@ -3,7 +3,7 @@ package test1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
         int[] nums = {3, 3, 4};
         int[] n = new Solution().twoSum(nums, 6);
